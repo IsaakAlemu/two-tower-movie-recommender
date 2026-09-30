@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Data (large, and reproducible via preprocessing scripts)
+data/raw/ml-100k/*
+!data/raw/ml-100k/.gitkeep
+
+# Trained artifacts (reproducible via train.py / build_index.py)
+artifacts/*.pt
+artifacts/*.faiss
+artifacts/*.npy
+
+# Editor/OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# pytest
+.pytest_cache/
