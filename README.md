@@ -156,7 +156,20 @@ artifacts/
   movie_index.faiss           # FAISS index
   user_vectors.npy             # cached user embeddings
 ```
+## Dataset
 
+This project uses the MovieLens 100K dataset.
+
+1. Download **MovieLens 100K** from the official GroupLens dataset page:
+   https://grouplens.org/datasets/movielens/100k/
+
+2. Extract the dataset.
+
+3. Place the extracted `ml-100k` folder here:
+
+```text
+data/raw/ml-100k/
+```
 ## Running it
 
 ```bash
