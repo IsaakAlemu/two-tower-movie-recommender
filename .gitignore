@@ -12,6 +12,9 @@ data/raw/ml-100k/*
 artifacts/*.pt
 artifacts/*.faiss
 artifacts/*.npy
+!artifacts/movie_index.faiss
+!artifacts/user_vectors.npy
+!artifacts/two_tower.pt
 
 # Editor/OS noise
 .vscode/
